@@ -3,8 +3,6 @@ package com.shubham.urlshortenerapi.dto;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
-import java.util.Date;
-
 @ApiModel(description = "Request object for POST method")
 public class UrlLongRequest {
 
