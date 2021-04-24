@@ -27,10 +27,7 @@ public class BaseConversion {
     public long decode(String input) {
         var characters = input.toCharArray();
         var length = characters.length;
-
         var decoded = 0;
-
-        //counter is used to avoid reversing input string
         var counter = 1;
         for (int i = 0; i < length; i++) {
             decoded += allowedString.indexOf(characters[i]) * Math.pow(base, length - counter);
